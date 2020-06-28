@@ -41,7 +41,7 @@ def copy_to(path_list, dest_dir):
 
 
 def zip_to(path_list, dest_zip):
-    """Zip special fies."""
+    """Zip special files."""
     cmd = ['zip', '-j', dest_zip]
     cmd.extend(path_list)
     print("Command I'm going to do:")
