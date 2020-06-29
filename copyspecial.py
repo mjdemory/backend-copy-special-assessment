@@ -7,7 +7,7 @@
 # http://www.apache.org/licenses/LICENSE-2.0
 
 # give credits
-__author__ = "???"
+__author__ = "Michael DeMory with help from Amanda Yonce, Zac Gerber, and video by Daniel"
 
 import re
 import os
