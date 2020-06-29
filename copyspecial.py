@@ -7,7 +7,7 @@
 # http://www.apache.org/licenses/LICENSE-2.0
 
 # give credits
-__author__ = "Michael DeMory with help from Amanda Yonce, Zac Gerber, and video by Daniel"
+__author__ = "Michael DeMory with help from Amanda Yonce, Zac Gerber, and video by Daniel "
 
 import re
 import os
@@ -32,7 +32,7 @@ def get_special_paths(dirname):
 
 
 def copy_to(path_list, dest_dir):
-    """Copies a file to a new file or directory."""
+    """Copy a file to a new file or directory."""
     if not os.path.isdir(dest_dir):
         os.makedirs(dest_dir)
     for path in path_list:
